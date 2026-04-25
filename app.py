@@ -31,10 +31,10 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # -------------------- API KEYS --------------------
-TMDB_API_KEY = "0fa89fe348ea2bd36baa2961437188b2"
-OMDB_API_KEY = "d8c15a91"
+TMDB_API_KEY = "Your_key"
+OMDB_API_KEY = "Your_key"
 
-genai.configure(api_key="AIzaSyCtn6E36p4apU7xpkTFZGYKROV_SJzyNrw")
+genai.configure(api_key="Your_key")
 model = genai.GenerativeModel("gemini-2.5-flash")
 
 # -------------------- GEMINI DESCRIPTION --------------------
